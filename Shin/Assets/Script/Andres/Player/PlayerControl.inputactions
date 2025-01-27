@@ -1,0 +1,56 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "ad137070-822f-4be6-b5c2-01d46e885c12",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "964a85e5-8ead-42fa-8df0-832813d76576",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "02112940-c9e3-4003-99fe-ed184d53b3f9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f8696f4-f053-466f-bdf7-b42b1192a7a6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a76582b7-105c-4796-9b8e-bb43232e4c40",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
